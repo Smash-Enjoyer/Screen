@@ -21,7 +21,7 @@ my_group = displayio.Group()
 display.show(my_group)  # clear the screen
 my_bitmap = displayio.Bitmap(240, 135, 1) # width and height are your choice
 my_palette = displayio.Palette(1) # number of palette colors
-my_palette[0] = 0xFFFFFF # assign colors to palette list
+my_palette[0] = 0xD38226 # assign colors to palette list
 my_tile_grid = displayio.TileGrid(my_bitmap, x=0, y=0, pixel_shader=my_palette)
 my_group.append(my_tile_grid)  # updates the display with the new objects
 
